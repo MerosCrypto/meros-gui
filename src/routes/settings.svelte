@@ -13,11 +13,6 @@
 </script>
 
 <style>
-    hr {
-        border-color: rgba(0, 0, 0, 0.123);
-        width: 100%;
-    }
-
     input[type="checkbox" i] {
         margin-top: 10px;
         height: 20px;
