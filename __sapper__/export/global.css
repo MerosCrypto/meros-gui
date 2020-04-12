@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: #E9E9E9;
+	color: #333;
+	overflow: hidden !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none !important;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+button{
+	outline: none;
+	background-color: #1653BB;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 6px;
+	border: none;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.29);
+	transition: 0.3s;
+	padding: 11px 10px;
+	margin-left: 10px;
+	font-size: 15px;
+	fill: #fff;
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+}
+
+button img{
+	max-width: 30px;
+	min-width: 30px;
+	margin: 0px;
+	margin-right: 10px;
+}
+button p{
+	margin: 0px;
+	margin-top: 6px;
+	margin-right: 30px;
+}
+
+button:hover{
+	background-color: rgb(69, 123, 224);
+}
+
+input {
+	cursor: pointer;
+	font-size: 13px;
+
+	border: solid #fff 2px;
+	border-radius: 30px;
+	max-height: 21px;
+	width: auto;
+	padding: 10px;
+	background-color: #003795;
+	color: #fff;
+	box-shadow: none;
+
+	display: flex;
+	flex-direction: row;
+}
+
+input:focus {
+	background-color: rgba(173, 173, 173, 0.26);
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.col{
+	display: flex;
+	flex-direction: column;
+}
+
+.half{
+	width: 50%;
+}
+
+.bcard{
+	background-color: #00358E;
+	color:#fff;
+	margin-bottom: 30px;
+}
+
+b h3{
+	font-weight: bold;
+}
